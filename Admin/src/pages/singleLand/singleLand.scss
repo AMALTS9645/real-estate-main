@@ -1,0 +1,132 @@
+.single {
+  display: flex;
+  width: 100%;
+  .singleContainer {
+    flex: 6;
+
+    .top {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+
+      .left {
+        flex: 1;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        position: relative;
+
+        .editButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 12px;
+          color: #7451f8;
+          background-color: #7551f818;
+          cursor: pointer;
+          border-radius: 0px 0px 0px 5px;
+        }
+
+        .item {
+          display: flex;
+          gap: 20px;
+          width: 100%;
+
+          .itemImg {
+            width: 150px;
+            height: 150px;
+            border-radius: 10%;
+            object-fit: cover;
+          }
+
+          .details {
+            width: 100%;
+            margin-left: 150px;
+            .itemTitle {
+              margin-bottom: 10px;
+              color: #555;
+            }
+
+            .detailItem {
+              margin-bottom: 10px;
+              font-size: 14px;
+              display: flex;
+              
+
+              .itemKey {
+                font-weight: bold;
+                color: gray;
+                margin-right: 5px;
+              }
+
+              .itemValue {
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        flex: 2;
+      }
+    }
+
+    .bottom {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 10px 20px;
+    }
+
+    .title {
+      font-size: 16px;
+      color: lightgray;
+      margin-bottom: 20px;
+    }
+  }
+}
+.imageImage{
+  width: 150px;
+  height: 150px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.saveEdittBtn {
+  display: flex;
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: rgb(86, 74, 251);
+  height: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 2px;
+  label {
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+}
+
+.editCloseBtn {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameDesc{
+  height: 200px;
+  width: 500px;
+}
